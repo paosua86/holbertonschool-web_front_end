@@ -141,7 +141,7 @@ a:active {
     margin: auto;
 }
 
-.nav-menu {
+.navbar-menu {
     float: right;
 }
 
@@ -170,6 +170,6 @@ a:active {
 }
 
 .nav .nav-link:hover {
-    padding: var(--nav-item-link-hover);
+    color: var(--nav-item-link-hover);
 }
 
