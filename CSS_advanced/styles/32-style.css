@@ -293,7 +293,7 @@ ul.row {
     background: var(--button-hover-background);
     transition-duration: var(--transition-duration);
     /*The transition effect should be applied to the color and background-color properties (transition-property)*/
-    transition-property: color background-color;
+    transition-property: var(--background-color);
 }
 
 .card-testimonial {
