@@ -381,9 +381,10 @@ ul.row {
     z-index: 1
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 
 .card-work .card-title {
     text-align: center;
@@ -397,7 +398,7 @@ ul.row {
 .card-work .card-title a{
     display: block;
     text-decoration: none;
-    padding: 45%;
+    padding-top: 45%;
 }
 
 .card-work .card-title a::after {
@@ -405,8 +406,8 @@ ul.row {
     /*Set the top, right, left, and bottom positions to be 0*/
     top: 0;
     right: 0;
+    bottom: 0;
     left: 0;
-    right: 0;
     content: "";
 }
 
