@@ -57,6 +57,7 @@
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
+    --nav-item-link-hover: var(--color-white);
 }
 
  /* universal box sizing rule*/
@@ -334,7 +335,7 @@ ul.row {
     left: var(--header-logo-link-left);
 }
 
-.nav-item-link-hover {
+.nav .nav-item:hover {
     color: var(--color-white);
 }
 
@@ -351,7 +352,7 @@ ul.row {
     height: 0.2rem;
 }
 
-.nav .nav-item .nav-link {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
