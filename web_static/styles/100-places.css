@@ -101,6 +101,7 @@
     flex-flow: column;
     height: 270px;
     width: 100%;
+    margin-top: 40px;
 }
 
 .Amenities h2 {
@@ -152,12 +153,16 @@
 .reviews {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .reviews p {
-    margin: 0 0 0 0; /*perfect circle*/
+    font-size: 12px;
 }
 
+.reviews h3 {
+    font-size: 14px;
+}
 .reviews_description {
     margin-left: -30px;
     margin-right: 10px;
